@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Document</title>
+</head>
+
+<body>
+  <header>
+    <h1>Mente Serena</h1>
+    <hr>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="index.html">Início</a></li>
+      <li><a href="cadastro.html">Cadastro</a></li>
+      <li><a href="Galeria.html">Imagens</a></li>
+    </ul>
+    <hr>
+  </nav>
+  <main>
+    <h2>Tela de Cadastro</h2>
+    <form>
+      <Fieldset>
+        <legend>Dados Pessoais</legend>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" name="senha"><br><br>
+        <label for="cpf">CPF:</label>
+        <input type="tel" id="cpf" placeholder="000.000.000-00" name="cpf"><br><br>
+        <label for="telefone">Telefone:</label>
+        <input type="tel" id="telefone" placeholder="(00) 00000-0000" name="telefone"><br><br>
+        <label for="data_nascimento">Data de Nascimento:</label>
+        <p></p>
+        <input type="date" id="data_nascimento" name="data_nascimento"><br><br>
+        <label for="idade">Idade:</label>
+        <input type="number" name="Idade" id="idade" placeholder="Idade"><br><br>
+        <label for="sexo">Sexo:</label>
+
+        <input type="radio" name="sexo" value="masculino"> Masculino
+        <input type="radio" name="sexo" value="feminino">Feminino
+        <input type="radio" name="sexo" value="outro">Outro
+        <p></p>
+        <p></p>
+        <fieldset>
+          <legend></legend>
+          <p></p>
+          <label for="Endereço">Endereço</label>
+          <input type="text" id="endereco" placeholder="Rua 123, bairro" name="endereco"><br><br>
+          <label for="cidade">Cidade:</label>
+          <input type="text" id="cidade" name="cidade"><br><br>
+          <p></p>
+        </fieldset>
+        <p></p>
+        <p></p>
+        <fieldset>
+
+          <legend>Termos e Condições</legend>
+          <a href="Termos e condições">termos e condições</a> <br><br>
+          <input type="checkbox" name="termos" value="aceito"> Aceito os termos e condições <br><br>
+        </fieldset>
+        <p></p>
+        <textarea name="observacoes" id="" placeholder="Observações"></textarea> <br><br>
+        <input type="file" accept="image/*"> <br><br>
+        <input type="hidden" name="token" value="abc123"> <br><br>
+        <input type="submit" value="Cadastrar"> <BR></BR>
+      </Fieldset>
+    </form>
+  </main>
+  <footer>
+    <address>
+      <p>Av. Paulista, 1000 - São Paulo, SP</p>
+    </address>
+  </footer>
+</body>
+
+</html>
