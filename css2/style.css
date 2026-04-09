@@ -1,0 +1,155 @@
+.header1 {
+  background-color: rgb(255, 0, 149);
+  border-radius: 10px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  text-align: center;
+  color: aliceblue;
+}
+
+body {
+  background-color: rgb(255, 217, 247);
+}
+
+.divimg {
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgb(243, 77, 174);
+  width: 300px;
+  padding: 10px;
+  border: 2px solid rgb(243, 0, 142);
+  box-shadow: 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.nav1 {
+
+  background-color: rgb(238, 114, 186);
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  border: 3px solid rgb(255, 0, 149);
+  border-radius: 15px;
+
+}
+
+.nav1 a {
+  color: rgb(255, 255, 255);
+}
+
+.main1 h1 {
+  color: rgb(255, 255, 255);
+  justify-self: center;
+}
+
+.main1 p {
+  color: rgb(253, 227, 249);
+  justify-self: center;
+}
+
+.main1 a {
+  justify-self: center;
+  color: rgb(255, 0, 200);
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.divimg img {
+  width: 100%;
+  height: auto;
+}
+
+.main1 {
+  justify-content: center;
+  justify-self: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+
+
+}
+
+.footer1 {
+  background-color: rgb(255, 0, 149);
+
+  width: 100%;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  border-radius: 10px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  justify-self: center;
+}
+
+.footer1 p {
+  text-align: auto;
+}
+
+.h1inicio {
+  text-align: center;
+  color: rgb(248, 0, 145);
+}
+
+.divnoticia {
+  background-color: rgb(238, 114, 186);
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  padding: 10px;
+  width: 20%;
+  border: 3px solid rgb(243, 0, 142);
+}
+
+.mainoticia {
+  justify-content: center;
+  justify-self: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  border: 3px solid rgb(243, 0, 142);
+}
+
+.divnoticia h1 {
+  color: aliceblue;
+}
+
+.divnoticia p {
+  color: rgb(253, 210, 240);
+}
+
+.h1noticias {
+  text-align: center;
+  color: rgb(248, 0, 145);
+}
+
+
+.divperfil {
+  background-color: rgb(238, 114, 186);
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  padding: 10px;
+  width: 20%;
+  border: 3px solid rgb(243, 0, 142);
+}
+
+.divperfil h2 {
+  color: aliceblue;
+}
+
+.h1perfil {
+  color: rgb(255, 1, 141);
+  text-align: center;
+}
+
+.divperfil img {
+  border-radius: 100px;
+  justify-self: center;
+  width: 250px;
+}
