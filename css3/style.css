@@ -1,0 +1,155 @@
+header {
+  background-color: rgb(107, 0, 62);
+  color: rgb(255, 255, 255);
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  font-family: sans-serif;
+  padding: 10px;
+}
+
+nav {
+  background-color: rgb(146, 0, 85);
+  font-family: sans-serif;
+  text-align: center;
+  gap: 100px;
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+
+}
+
+.nav1 a {
+  color: aliceblue;
+  text-decoration: none;
+
+}
+
+main {
+  margin-top: 50px;
+  justify-self: center;
+  border-radius: 8px;
+  box-shadow: 20px;
+  padding: 25px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+}
+
+.titulo {
+  background-color: rgb(146, 0, 85);
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+  color: rgb(255, 240, 250);
+}
+
+.titulo p {
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.titulo h2 {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  background-color: rgb(241, 173, 219);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.holder1 {
+  display: flex;
+}
+
+.quadradao {
+  width: 70%;
+  border: solid #f78dd3;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-self: center;
+  background-color: rgb(146, 0, 85);
+  padding: 10px;
+}
+
+.cardarea {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  border-radius: 10px;
+}
+
+.card {
+  padding-top: 1px;
+  background-color: #ffaee4;
+  border: 1px solid rgb(0, 0, 0);
+  padding: 5px 10px;
+  border-radius: 10px;
+  width: 300px;
+}
+
+.card p {
+  padding-bottom: 10px;
+}
+
+.titulocard1,
+.titulocard2 {
+  padding: 20px;
+  background-color: rgb(146, 0, 85);
+
+  border-radius: 15px;
+  box-shadow: 1px 1px 20px;
+}
+
+.nott1 {
+  height: 300px;
+}
+
+
+body {
+  background-color: #fcd7ef;
+  margin: 0;
+}
+
+footer {
+  background-color: rgb(146, 0, 85);
+  padding: 5px;
+  text-align: center;
+  color: white;
+}
+
+.card h3 {
+  background-color: #e73eaf;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 0px;
+  text-align: center;
+  margin-top: 0;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer1 {
+  padding: 2px;
+  text-align: center;
+  background-color: #e73eaf;
+}
