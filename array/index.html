@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main>
+ <div class="div1">
+    <h2>Produtos:</h2>
+    <p></p>
+ </div>
+  <div class="div2">
+    <h1>Cadastrar produtos</h1>
+    <div class="div3">
+        <label for="produto">Digite o nome do produto:</label>
+         <input type="text" id="produto" placeholder="produto">
+    </div>
+    <div class="div3">
+       <label for="preco">Digite o preço do produto:</label>
+        <input type="number" id="preco" placeholder="preço">
+    </div>
+    <div class="div4">
+         <button onclick="guardar()">Guardar</button>
+         <button onclick="cadastrar()">Enviar</button>
+        <p id="mensagem"></p>
+    </div>
+    <div class="tudo">
+      <div class="div5">
+        <h2>Produtos cadastrados</h2>
+        <p id="mensagem2"></p>
+      </div>
+        <div class="final">
+            <h1>Contagem</h1>
+            <p id="mensagem3"></p>
+        </div>
+    </div>
+  </div>
+    </main>
+<script src="script.js"></script>
+</body>
+</html>
